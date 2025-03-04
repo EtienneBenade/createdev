@@ -1,0 +1,87 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: tan;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+.logo img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Grape Nuts", cursive;
+}
+
+footer {
+  text-align: right;
+  color: aqua;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+span {
+  color: aqua;
+  font-family: "Grape Nuts", cursive;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+  margin-right: 25px;
+}
+
+.right {
+  float: right;
+  margin-left: 25px;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+  }
+  .card img {
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .logo img {
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
